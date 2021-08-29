@@ -4,7 +4,7 @@ import discord
 import requests
 import botcommands
 
-TOKEN = "ODczMDcyNjI3MzM2NTAzMzM2.YQzGPw.l7ju4edj1-OcF1LB9X3FhInLD9Q"
+TOKEN = ""
 
 
 diclient = discord.Client()
@@ -12,7 +12,7 @@ diclient = discord.Client()
 jinkou = 0
 
 def send_message(message):
-    apikey = "DZZ5LFYIsNZoDnAGdsa2w4GJMBkzJQot"
+    apikey = ""
     client = pya3rt.TalkClient(apikey)
     reply_message = client.talk(message)
     return reply_message["results"][0]["reply"]
