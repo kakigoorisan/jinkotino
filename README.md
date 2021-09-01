@@ -12,7 +12,7 @@ This bot can talk with the AI
 
 *if you want to stop talking with AI, all you have to do is to type the command "talke". It means "talk ends"
 
-*If you think the bot's log is noisy, please type the command ".setchannelid" where you want to talk with AI
+*If you think the log is noisy, please type the command ".setchannelid" where you want to talk with AI
 ## Invite URL
 
 # >> URL here <<
