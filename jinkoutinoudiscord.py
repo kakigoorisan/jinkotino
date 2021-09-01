@@ -4,10 +4,10 @@ import discord
 import requests
 import botcommands
 
-TOKEN = //Please Write Your TOKEN Here//
+TOKEN = "Please Write Your TOKEN Here"
 setchannelid = 0
 
-diclient = discord.Client()
+diclient = discord.Client() 
 
 jinkou = 0
 
@@ -29,14 +29,17 @@ async def on_message(dimessage):
     global setchannelid
     if dimessage.channel.id != setchannelid and setchannelid != 0:
         return
+    
     global jinkou
 
     print (jinkou)
 
     if dimessage.author.bot:
         return
+    
     if dimessage.content == ".setchannelid":
         setchannelid = dimessage.channel.id
+        
     if jinkou == 0 and dimessage.content == ".talks":
         print(dimessage.content)
 
@@ -44,6 +47,7 @@ async def on_message(dimessage):
 
         print(jinkou)
         await dimessage.channel.send("会話を開始します")
+        
     if dimessage.content == (".help"):
         await dimessage.channel.send(".talks :会話を開始 \n .talke :会話を終了 \n .help :これを表示.")
 
