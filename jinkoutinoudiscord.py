@@ -5,7 +5,7 @@ import requests
 import botcommands
 
 TOKEN = //Please Write Your TOKEN Here//
-
+setchannelid = 0
 
 diclient = discord.Client()
 
@@ -25,8 +25,9 @@ async def on_ready():
     print(reply)
 
 @diclient.event
-async def on_message(dimessage): 
-    if dimessage.channel.id != 873431560655867934:
+async def on_message(dimessage):
+    global setchannelid
+    if dimessage.channel.id != setchannelid and setchannelid != 0:
         return
     global jinkou
 
@@ -34,7 +35,8 @@ async def on_message(dimessage):
 
     if dimessage.author.bot:
         return
-
+    if dimessage.content == ".setchannelid":
+        setchannelid = dimessage.channel.id
     if jinkou == 0 and dimessage.content == ".talks":
         print(dimessage.content)
 
