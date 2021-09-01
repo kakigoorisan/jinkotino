@@ -6,7 +6,7 @@ This bot can talk with the AI
 ## How to use
 ①If you do not invite this bot to your discord server, you must invite this bot to your discord server.
 
-②Please type command ".talks". It means "talk start".
+②Please type the command ".talks". It means "talk start".
 
 ③Then you can enjoy talking with the AI
 
