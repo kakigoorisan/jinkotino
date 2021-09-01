@@ -15,7 +15,7 @@ This bot can talk with the AI
 *If you think the log is noisy, please type the command ".setchannelid" where you want to talk with AI
 ## Invite URL
 
-# >> https://discord.com/api/oauth2/authorize?client_id=873072627336503336&permissions=2147552256&scope=bot%20applications.commands <<
+### >> https://discord.com/api/oauth2/authorize?client_id=873072627336503336&permissions=2147552256&scope=bot%20applications.commands <<
 
 ## P.S
 If you have a complaint, please send a message to @kaki0123dees (twitter ID)
