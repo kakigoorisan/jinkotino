@@ -4,7 +4,7 @@ import discord
 import requests
 import botcommands
 
-TOKEN = ""
+TOKEN = //Please Write Your TOKEN Here//
 
 
 diclient = discord.Client()
@@ -19,7 +19,7 @@ def send_message(message):
 
 @diclient.event
 async def on_ready():
-    print("起動しました")
+    print ("起動しました")
     message = "こんにちは"
     reply = send_message(message)
     print(reply)
