@@ -18,4 +18,4 @@ This bot can talk with the AI
 ##### https://discord.com/api/oauth2/authorize?client_id=873072627336503336&permissions=2147552256&scope=bot%20applications.commands
 
 ## P.S
-If you have a complaint, please send a message to @kaki0123dees (twitter ID)
+If you have a complaint, please send a message to my twitter (@kaki0123dees)
